@@ -1,16 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+  <title>The Social Media Company</title>
+  <link rel='shortcut icon' type='image/x-icon' href='images/favicon.ico'>
   <link rel="stylesheet" href="css/icon-font-custom.css">
+  <link rel="stylesheet" href="lib/css/slick.css">
   <link rel="stylesheet" href="css/styles.css">
-  <script src="lib/jquery-3.5.1.min.js"></script>
+  <script src="lib/js/jquery-3.5.1.min.js"></script>
+  <script src="lib/js/slick.min.js"></script>
   <script src="js/script.js"></script>
 </head>
 <body>
   <header class="header d-flex justify-content-between">
     <a class="logo" href="index.html">
-      <img src="images/logo.png" alt="Logo">
+      <picture>
+        <source media="(min-width:1024px)" srcset="images/logo-desktop.jpg">
+        <img src="images/logo-mobile.jpg" alt="Logo">
+      </picture>
     </a>
     <div class="hamburger-icon mobile-only">
       <span class="d-block pos-abs"></span>
@@ -32,39 +39,39 @@
         </a>
         <ul class="sub-menu">
           <li class="menu-item">
-            <a class="menu-link d-block" href="social-media-management">SOCIAL MEDIA MANAGEMENT</a>
+            <a class="menu-link d-block" href="#">SOCIAL MEDIA MANAGEMENT</a>
           </li>
           <li class="menu-item">
-            <a class="menu-link d-block" href="graphic-design">GRAPHIC DESIGN</a>
+            <a class="menu-link d-block" href="#">GRAPHIC DESIGN</a>
           </li>
           <li class="menu-item">
-            <a class="menu-link d-block" href="copywriting">COPYWRITING</a>
+            <a class="menu-link d-block" href="#">COPYWRITING</a>
           </li>
           <li class="menu-item">
-            <a class="menu-link d-block" href="marketing-strategy">MARKETING STRATEGY</a>
+            <a class="menu-link d-block" href="#">MARKETING STRATEGY</a>
           </li>
           <li class="menu-item">
-            <a class="menu-link d-block" href="website-design">WEBSITE DESIGN</a>
+            <a class="menu-link d-block" href="#">WEBSITE DESIGN</a>
           </li>
           <li class="menu-item">
-            <a class="menu-link d-block" href="newsletters">NEWSLETTERS</a>
+            <a class="menu-link d-block" href="#">NEWSLETTERS</a>
           </li>
           <li class="menu-item">
-            <a class="menu-link d-block" href="public-relations">PUBLIC RELATIONS</a>
+            <a class="menu-link d-block" href="#">PUBLIC RELATIONS</a>
           </li>
           <li class="menu-item">
-            <a class="menu-link d-block" href="corporate-gifts">CORPORATE GIFTS</a>
+            <a class="menu-link d-block" href="#">CORPORATE GIFTS</a>
           </li>
         </ul>
       </li>
       <li class="menu-item">
-        <a class="menu-link d-block" href="about-us">ABOUT US</a>
+        <a class="menu-link d-block" href="about-us.html">ABOUT US</a>
       </li>
       <li class="menu-item">
-        <a class="menu-link d-block" href="contact-us">CONTACT US</a>
+        <a class="menu-link d-block" href="#">CONTACT US</a>
       </li>
-      <li class="menu-item">
-        <a class="menu-link d-block pos-rel" href="whatsapp://send?text=Hello World!&phone=+447721868819">
+      <li class="menu-item mobile-only">
+        <a class="menu-link d-block pos-rel" href="whatsapp://send?text=Hello&phone=+919747693471">
           <span>WHATSAPP</span>
           <img class="whatsapp-icon pos-abs" src="images/whatsapp-icon.jpg" alt="Whatsapp Icon">
         </a>
@@ -79,68 +86,121 @@
 
   <ul class="services-section">
     <li class="text-center">
-      <a class="services-icon" href="social-media-management">
+      <a class="services-icon" href="#">
         <i class="ifc-twitter"></i>
       </a>
-      <h4><a class="services-link" href="social-media-management">SOCIAL MEDIA</a></h3>
+      <h4><a class="services-link" href="#">SOCIAL MEDIA</a></h4>
       <p class="services-text">If social media is the blood that courses through our veins, then copywriting is the heart that keeps this creative machine going.</p>
     </li>
     <li class="text-center">
-      <a class="services-icon" href="copywriting">
+      <a class="services-icon" href="#">
         <i class="ifc-pen"></i>
       </a>
-      </div>
-      <h4><a class="services-link" href="copywriting">COPYWRITING</a></h3>
+      <h4><a class="services-link" href="#">COPYWRITING</a></h4>
       <p class="services-text">From business cards to banners – all your graphic design requirements in one place.</p>
     </li>
     <li class="text-center">
-      <a class="services-icon" href="graphic-design">
+      <a class="services-icon" href="#">
         <i class="ifc-medium_icons"></i>
       </a>
-      </div>
-      <h4><a class="services-link" href="graphic-design">GRAPHIC DESIGN</a></h3>
+      <h4><a class="services-link" href="#">GRAPHIC DESIGN</a></h4>
       <p class="services-text">Design and develop your business’s online home.</p>
     </li>
     <li class="text-center">
-      <a class="services-icon" href="website-design">
+      <a class="services-icon" href="#">
         <i class="ifc-virtual_machine"></i>
       </a>
-      </div>
-      <h4><a class="services-link" href="website-design">WEBSITE DESIGN</a></h3>
+      <h4><a class="services-link" href="#">WEBSITE DESIGN</a></h4>
       <p class="services-text">This is our speciality. We know what it takes to give your business a personality on social media.</p>
     </li>
     <li class="text-center">
-      <a class="services-icon" href="newsletters">
+      <a class="services-icon" href="#">
         <i class="ifc-replay"></i>
       </a>
-      </div>
-      <h4><a class="services-link" href="newsletters">NEWSLETTERS</a></h3>
+      <h4><a class="services-link" href="#">NEWSLETTERS</a></h4>
       <p class="services-text">For many businesses, email marketing and digital newsletters form their primary means of communication with clients.</p>
     </li>
     <li class="text-center">
-      <a class="services-icon" href="corporate-gifts">
+      <a class="services-icon" href="#">
         <i class="ifc-gift"></i>
       </a>
-      </div>
-      <h4><a class="services-link" href="corporate-gifts">CORPORATE GIFTS</a></h3>
+      <h4><a class="services-link" href="#">CORPORATE GIFTS</a></h4>
       <p class="services-text">A tailored gift hamper solution that is perfect for year-end functions, events and the boss’s birthday.</p>
     </li>
     <li class="text-center">
-      <a class="services-icon" href="public-relations">
+      <a class="services-icon" href="#">
         <i class="ifc-micro"></i>
       </a>
-      </div>
-      <h4><a class="services-link" href="public-relations">PUBLIC RELATIONS</a></h3>
+      <h4><a class="services-link" href="#">PUBLIC RELATIONS</a></h4>
       <p class="services-text">The Social Media Company has a special partnership with one of the country’s leading public relations firms.</p>
     </li>
     <li class="text-center">
-      <a class="services-icon" href="marketing-strategy">
+      <a class="services-icon" href="#">
         <i class="ifc-presentation"></i>
       </a>
-      </div>
-      <h4><a class="services-link" href="marketing-strategy">STRATEGY</a></h3>
+      <h4><a class="services-link" href="#">STRATEGY</a></h4>
       <p class="services-text">You might have dabbled in digital marketing before, but do you have the right plan to go all the way?</p>
     </li>
   </ul>
+
+  <section class="why-us-section">
+    <div class="why-us-text">
+      <h4>WHY GO DIGITAL WITH US?</h4>
+      <p>Affordability – We pride ourselves on offering world-class service at pricing that is tailored for the unique needs of each client.</p>
+      <p>Transparency – The sky is the limit, but we won’t make any promises we can’t keep.</p>
+      <p>Collaborations – We believe in the power of collaboration. We are constantly introducing our clients and partners to one another, opening the doors for new opportunities.</p>
+      <p>Passion – We feel so strongly about social media, we named our business after it.</p>
+    </div>
+    <ul id="whyUsCarousel" class="why-us-carousel text-center">
+      <li><img src="images/whyUsCarousel1.png" alt="Why Us Testimony 1"></li>
+      <li><img src="images/whyUsCarousel2.png" alt="Why Us Testimony 2"></li>
+      <li><img src="images/whyUsCarousel3.png" alt="Why Us Testimony 3"></li>
+    </ul>
+  </section>
+
+  <section class="client-list-section text-center">
+    <img src="images/clients-icon.png" alt="Client Icon">
+    <h3>Social media is the only marketing platform that offers your business a two-way stream of communication with potential customers. On social media, you can connect with real people in markets that could traditionally only be reached with absorbent budgets</h3>
+    <div class="client-logos">
+      <img src="images/client-logos/cl1.jpeg" alt="Client Logo">
+      <img src="images/client-logos/cl2.jpeg" alt="Client Logo">
+      <img src="images/client-logos/cl3.jpeg" alt="Client Logo">
+      <img src="images/client-logos/cl4.jpeg" alt="Client Logo">
+      <img src="images/client-logos/cl5.jpeg" alt="Client Logo">
+      <img src="images/client-logos/cl6.jpeg" alt="Client Logo">
+      <img src="images/client-logos/cl7.jpeg" alt="Client Logo">
+      <img src="images/client-logos/cl8.jpeg" alt="Client Logo">
+      <img src="images/client-logos/cl9.jpeg" alt="Client Logo">
+      <img src="images/client-logos/cl10.jpeg" alt="Client Logo">
+      <img src="images/client-logos/cl11.jpeg" alt="Client Logo">
+      <img src="images/client-logos/cl12.jpeg" alt="Client Logo">
+      <img src="images/client-logos/cl13.jpeg" alt="Client Logo">
+      <img src="images/client-logos/cl14.jpeg" alt="Client Logo">
+      <img src="images/client-logos/cl15.jpeg" alt="Client Logo">
+      <img src="images/client-logos/cl16.jpeg" alt="Client Logo">
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-wrapper">
+      <div class="address-block">
+        <h4>GET IN TOUCH</h4>
+        <p>Telephone: 011 367 9401</p>
+        <p>Email: info@socialmediacompany.co.za</p>
+        <p>Address:</p>
+        <p>39 Astor Rd, Kleve Hill Park, Sandton, 2191</p>
+      </div>
+      <img class="footer-logo" src="images/logo.jpg" alt="Logo">
+      <div>
+        <h4>CONNECT WITH US ON SOCIAL MEDIA</h4>
+        <div class="social-media-icons">
+          <a href="#"><i class="ifc-facebook"></i></a>
+          <a href="#"><i class="ifc-twitter"></i></a>
+          <a href="#"><i class="ifc-linkedin"></i></a>
+          <a href="#"><i class="ifc-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>

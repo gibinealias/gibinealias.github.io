@@ -8,4 +8,11 @@ $(document).ready(function(){
 		e.preventDefault();
 		$(this).parent().toggleClass('open');
 	});
+
+	$('#whyUsCarousel').slick({
+		arrows: false,
+	  dots: true,
+	  infinite: true,
+		autoplay: true
+	});
 });
