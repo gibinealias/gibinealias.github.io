@@ -290,6 +290,11 @@ footer{
   margin-right: 16px;
 }
 
+.contact-us-wrapper iframe{
+  /* Overriding Contact Us form iFrame styles */
+  height: 570px!important;
+}
+
 /* Mobile view */
 @media only screen and (max-width: 1023px){
   .desktop-only{
