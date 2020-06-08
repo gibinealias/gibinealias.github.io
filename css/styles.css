@@ -277,6 +277,37 @@ footer{
   margin-top: 20px;
 }
 
+.services-wrapper{
+  padding: 40px 15px;
+}
+
+.services-wrapper .image-section,
+.services-wrapper .text-section{
+  padding: 12px 0;
+}
+
+.services-wrapper .title{
+  margin: 12px 0;
+}
+
+.services-wrapper li{
+  list-style: initial;
+  margin-left: 20px;
+}
+
+.get-in-touch-heading{
+  margin-top: 50px;
+}
+
+.contact-us-wrapper iframe{
+  /* Overriding Contact Us form iFrame styles */
+  height: 550px!important;
+}
+
+.contact-us-wrapper .contact-address{
+  margin: 30px 0;
+}
+
 .footer-logo{
   margin: 70px auto;
 }
@@ -288,11 +319,6 @@ footer{
 
 .social-media-icons a{
   margin-right: 16px;
-}
-
-.contact-us-wrapper iframe{
-  /* Overriding Contact Us form iFrame styles */
-  height: 570px!important;
 }
 
 /* Mobile view */
@@ -353,6 +379,33 @@ footer{
   .main-section{
     max-width: 1000px;
     margin: 0 auto;
+  }
+
+  .services-wrapper{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .services-wrapper .image-section,
+  .services-wrapper .text-section{
+    width: 50%;
+    margin: 0 10px;
+  }
+
+  .services-wrapper .image-section{
+    text-align: center;
+  }
+
+  .contact-us-wrapper{
+    display: flex;
+    margin: 0 auto;
+    max-width: 1000px;
+  }
+
+  .contact-us-wrapper .contact-address{
+    margin: 40px 30px 0 30px;
   }
 
   .footer-wrapper{
