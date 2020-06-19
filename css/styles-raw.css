@@ -233,7 +233,7 @@ footer{
 }
 
 .why-us-section .slick-dots{
-  bottom: 5px;
+  bottom: 0;
 }
 
 .why-us-section .slick-dots button:before{
@@ -260,6 +260,10 @@ footer{
 
 .why-us-carousel img{
   margin: 0 auto;
+}
+
+.why-us-carousel .slick-slide{
+  outline: 0;
 }
 
 .client-list-section{
@@ -588,7 +592,9 @@ footer{
   }
 
   .why-us-section .slick-dots{
-    bottom: 25px;
+    width: 94%;
+    right: 0;
+    bottom: 5px;
   }
 
   .client-list-section{
@@ -607,4 +613,3 @@ footer{
     filter: grayscale(0);
   }
 }
-
