@@ -4,15 +4,10 @@ $(document).ready(function(){
 		$('.main-nav').toggleClass('open');
 	});
 
-	$('.menu-item.has-sub-menu > .menu-link').on('click', function(e){
-		e.preventDefault();
-		$(this).parent().toggleClass('open');
-	});
-
 	$('#whyUsCarousel').slick({
 		arrows: false,
-	  dots: true,
-	  infinite: true,
+		dots: true,
+		infinite: true,
 		autoplay: true
 	});
 });

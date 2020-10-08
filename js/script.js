@@ -1,1 +1,20 @@
-$(document).ready(function(){$(".header .hamburger-icon").on("click",function(){$(this).toggleClass("open"),$(".main-nav").toggleClass("open")}),$(".menu-item.has-sub-menu > .menu-link").on("click",function(n){n.preventDefault(),$(this).parent().toggleClass("open")}),$("#whyUsCarousel").slick({arrows:!1,dots:!0,infinite:!0,autoplay:!0})});
+$(document).ready(function(){
+	$('.header .hamburger-icon').on('click', function(){
+		$(this).toggleClass('open');
+		$('.main-nav').toggleClass('open');
+	});
+
+	$('#heroBanner').slick({
+		arrows: false,
+		dots: true,
+		infinite: true,
+		autoplay: true
+	});
+
+	$('#testimonialCarousel').slick({
+		arrows: false,
+		dots: true,
+		infinite: true,
+		autoplay: true
+	});
+});
