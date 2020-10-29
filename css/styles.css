@@ -305,7 +305,6 @@ footer{
 .footer-links ul li{
   font-size: 18px;
   font-weight: 100;
-  margin-right: 50px;
   line-height: 1.5;
 }
 
@@ -364,8 +363,14 @@ footer{
     margin-top: 5px;
   }
 
+  .footer-links ul{
+    width: 50%;
+    text-align: center;
+  }
+
   .footer-address-block{
     margin-top: 20px;
+    text-align: center;
   }
 }
 
@@ -378,10 +383,6 @@ footer{
 
   footer{
     padding: 35px 80px;
-  }
-
-  .footer-address-block{
-    text-align: right;
   }
 }
 
@@ -489,4 +490,14 @@ footer{
     width: 50%;
   }
 
+  .footer-wrapper{
+    display: flex;
+  }
+
+  .footer-links li{
+    margin-right: 50px;
+  }
+  .footer-address-block{
+    text-align: right;
+  }
 }
