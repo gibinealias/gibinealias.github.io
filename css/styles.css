@@ -216,6 +216,10 @@ footer{
   max-width: none;
 }
 
+.hero-banner .slick-dots button:before{
+  font-size: 0;
+}
+
 .overview-section{
   padding: 20px;
   margin-top: calc((100vw/3) - 85px);
