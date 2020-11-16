@@ -4,7 +4,7 @@ $(document).ready(function(){
 		$('.main-nav').toggleClass('open');
 	});
 
-	$('#heroBanner').slick({
+	$('.hero-banner').slick({
 		arrows: false,
 		dots: true,
 		infinite: true,
