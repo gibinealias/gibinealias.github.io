@@ -222,7 +222,7 @@ footer{
 
 .overview-section{
   padding: 20px;
-  margin-top: calc(100vh - 300px);
+  margin-top: 100vw;
 }
 
 .overview-section > p{
