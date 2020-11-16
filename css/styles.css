@@ -65,6 +65,14 @@ p{
   line-height: 25px;
 }
 
+hr{
+  width: 120px;
+  height: 5px;
+  border: 0;
+  background-color: #f75741;
+  margin: 2px auto 20px;
+}
+
 footer{
   background-color: #ebebec;
   padding: 32px;
@@ -75,12 +83,12 @@ footer{
   display: block;
 }
 
-.d-none{
-  display: none;
-}
-
 .flex{
   display: flex;
+}
+
+.d-none{
+  display: none;
 }
 
 .flex-wrap{
@@ -297,6 +305,24 @@ footer{
   margin: 60px auto 30px;
   padding: 0 20px 30px;
   border-bottom: solid 3px #fff;
+}
+
+.tabs{
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1300px;
+}
+
+.tab-header{
+  margin-top: 10px;
+  cursor: pointer;
+  flex-grow: 1;
+  border-bottom: solid 2px #f75741;
+}
+
+.tab-header.selected{
+  border-bottom-width: 6px;
+  margin-bottom: -2px;
 }
 
 .footer-wrapper{

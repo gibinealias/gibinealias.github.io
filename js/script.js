@@ -17,4 +17,11 @@ $(document).ready(function(){
 		infinite: true,
 		autoplay: true
 	});
+
+	$('.tab-header').on('click', function(){
+		$('.tab-header').removeClass('selected');
+		$(this).addClass('selected');
+		$('.tab-content').addClass('d-none');
+		$('#'+$(this).data('tab')).removeClass('d-none');
+	});
 });
