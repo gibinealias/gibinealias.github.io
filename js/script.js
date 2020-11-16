@@ -23,6 +23,6 @@ $(document).ready(function(){
 		$(this).addClass('selected');
 		$('.tab-content').addClass('d-none');
 		$('#'+$(this).data('tab')).removeClass('d-none');
-		this.scrollIntoView({behavior: "smooth"});
+		this.scrollIntoView({behavior: "smooth", block: "nearest"});
 	});
 });
