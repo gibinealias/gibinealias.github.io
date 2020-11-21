@@ -4,14 +4,7 @@ $(document).ready(function(){
 		$('.main-nav').toggleClass('open');
 	});
 
-	$('.hero-banner').slick({
-		arrows: false,
-		dots: true,
-		infinite: true,
-		autoplay: true
-	});
-
-	$('#testimonialCarousel').slick({
+	$('[data-slick]').slick({
 		arrows: false,
 		dots: true,
 		infinite: true,
