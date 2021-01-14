@@ -1,17 +1,9 @@
 <!doctype html>
 <html>
 <head>
+    <script src="main.js"></script>
 </head>
 <body>
     <iframe id="app-frame" src="https://gibinealias.github.io" width="600" height="600"></iframe>
-
-    <script>
-        var iframeWindow = document.getElementById("app-frame").contentWindow;
-        iframeWindow.addEventListener("click", function (event) {
-            let a = iframeWindow.pc.app;
-            console.log(a.currentCase +" - "+ a.currentStrap);
-        });
-    </script>
-
 </body>
 </html>
