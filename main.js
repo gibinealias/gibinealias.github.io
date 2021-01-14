@@ -5,7 +5,7 @@ window.onload = function(){
         console.log(val);
     });
 
-    app.on('update_case', function(val) {
-        console.log(val);
+    app.on('update_case', function(data) {
+        console.log(data);
     });
 }
