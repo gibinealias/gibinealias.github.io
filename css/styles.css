@@ -57,6 +57,7 @@ h3{
 h4{
   font-size: 20px;
   line-height: 1.5;
+  font-weight: 100;
 }
 
 p{
@@ -129,6 +130,7 @@ footer{
   border: solid 2px #333;
   letter-spacing: 3px;
   transition: .4s;
+  font-weight: 100;
 }
 
 .link-primary:hover{
