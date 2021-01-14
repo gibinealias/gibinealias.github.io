@@ -1,12 +1,11 @@
 window.onload = function(){
-    let iframeW = document.getElementById('app-frame').contentWindow,
-        app = iframeW.pc.Application.getApplication();
+    let app = document.getElementById('app-frame').contentWindow.pc.Application.getApplication();
 
-    app.on("update_strap", function (data) {
-        console.log(data);
+    app.on('update_strap', function(val) {
+        console.log(val);
     });
 
-    app.on("update_case", function (data) {
-        console.log(data);
+    app.on('update_case', function(val) {
+        console.log(val);
     });
 }
