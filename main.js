@@ -1,5 +1,9 @@
-var iframeWindow = document.getElementById("app-frame").contentWindow;
-iframeWindow.addEventListener("click", function (event) {
-    let a = iframeWindow.pc.app;
-    console.log(a.currentCase +" --- "+ a.currentStrap);
-});
+var iframe = document.getElementById('app-frame');
+
+iframe.onload = function() {
+    var iframeW = iframe.contentWindow;
+    iframeW.addEventListener('click', function () {
+        let a = iframeW.pc.app;
+        console.log(a.currentCase +' -- '+ a.currentStrap);
+    });
+};
