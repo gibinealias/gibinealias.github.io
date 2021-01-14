@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+</head>
+<body>
+    <iframe id="app-frame" src="https://gibinealias.github.io">
+
+    <script>
+        var iframe = document.getElementById("app-frame");
+        iframe.contentWindow.postMessage({
+            score: 10,
+        }, "https://playcanv.as");
+    </script>
+
+    <script>
+        window.addEventListener("message", function (event) {
+            if (event.origin === "https://gibinealias.github.io") { // always check message came from your website
+                var score = event.data.score;
+
+                console.log('here1');
+                console.log(score);
+
+                // call API method one:
+                window.setScore(score);
+
+                // call API method two:
+                var app = pc.Application.getApplication();
+                console.log('here2');
+                console.log(app);
+                app.fire("score:set", score);
+            }
+        }, false);
+    </script>
+</body>
+</html>
