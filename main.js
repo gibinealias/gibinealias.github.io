@@ -1,5 +1,7 @@
+var app;
+
 window.onload = function(){
-    var app = document.getElementById('app-frame').contentWindow.pc.Application.getApplication();
+    app = document.getElementById('app-frame').contentWindow.pc.Application.getApplication();
 
     app.on('update_strap', function(val) {
         console.log(val);
