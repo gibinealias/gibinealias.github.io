@@ -1,0 +1,310 @@
+.assetOff{
+	display:block;
+}
+
+.action-button-wrapper{
+	width: 210px;
+    margin: 0 auto;
+}
+
+.message-box{
+	top:20%;
+	height: 50%;
+}
+
+.message-box .cancel-link{
+	margin: 15px 3% 0px 0px;
+}
+
+header{
+	padding:3px;
+}
+
+header .logo {
+	display: block;
+	margin: 0 auto;
+	width: 161px;
+}
+
+header .header-right {
+	position: relative;
+	top:10px;
+    float: none;
+}
+
+header .header-right .call-us-text{
+	float: left;
+	margin-left: 5px;
+	font-size: 14px;
+	text-decoration: underline;
+}
+
+header .header-right .main-site-link{
+	display:none;
+}
+
+header .header-right .signout-button{
+	float: right;
+	margin-right: 5px;
+	padding: 0px;
+	background: none;
+	text-decoration: underline;
+}
+
+nav{
+	margin-top: 35px;
+	padding-left: 0px;
+	text-align: center;
+}
+
+nav h2 {
+	display: none;
+}
+
+nav ul {
+	float: none;
+	display: inline-block;
+	margin-bottom: -4px;
+}
+
+nav ul li{
+	border-top: solid 1px #D7D7D7;
+	padding: 18px 24px;
+}
+
+nav ul :last-child{
+	border-right: solid 1px #D7D7D7;
+}
+
+article .overview li{
+	height: 140px;
+}
+
+article .overview li span{
+	font-size: 14px;
+}
+
+article .overview li h1{
+	display: initial;
+	font-size: 25px;
+	font-weight: normal;
+	line-height: 65px;
+}
+
+article .overview li a{
+	margin:0px;
+    float: none;
+}
+
+article .overview li h4{
+	margin-top: 15px;
+}
+
+article .make-investment-button{
+	margin-right: 0px;
+}
+
+section aside{
+	margin:30px 0px;
+}
+
+section aside .add-remove-filter{
+	padding: 12%;
+	font-size: 12px;
+}
+
+section aside ul li{
+	font-size: 12px;
+}
+
+section aside ul li label{
+	padding: 8px 5%;
+}
+
+section aside .two-column-title, section aside ul span{
+	padding: 10px;
+	font-size: 13px;
+}
+
+section .message-box .filter-list{
+	padding-left: 0px;
+	min-width: 300px;
+	padding-bottom: 15px;
+}
+
+section .message-box li{
+	margin: 10px 0px;
+	margin-right: -5px;
+	font-size: 14px;
+}
+
+section .message-box li input{
+	height: 15px;
+	width: 15px;
+	margin-right: 3px;
+}
+
+#saveFilterButton{
+	margin-top: 0px;
+	margin-right: 3%;
+}
+
+section .message-box .filter-count, #confirmationBlock .balance-count{	
+	padding: 15px 0px 0px 0px;
+}
+
+section main{
+	width: 78%;
+	margin: 30px 0px 30px 0px;
+}
+
+section main h3{
+	padding-left: 5px;
+	font-size: 18px;
+}
+
+section main ul li{
+	font-size: 14px;
+}
+
+section main ul > :first-child{
+	margin-left: 5px;
+}
+
+section main ul > :nth-child(2), section main ul > :nth-child(3){
+	padding-right: 5px !important;
+}
+
+section main ul > :nth-child(6){
+	width: 19% !important;
+}
+
+section main ul > :last-child{
+	width: 12px;
+}
+
+section main ul li h4 {
+	margin-left: 4%;
+	font-size: 12px;
+}
+
+section main ul li img{
+	width: 12px;
+}
+
+section main ol{
+	margin: 0px 20px 10px 20px;
+}
+
+section main .make-investment-button{
+	right: initial;
+	margin-left: -10%;
+}
+
+#confirmationBlock{
+	height: 70%;
+	top:10%;
+}
+
+#confirmationBlock ul li{
+	padding: 0px 0px 8px 20px;
+}
+
+.confirmation-section .left{
+	margin: 20px 0px 50px 0px;
+	width: 97%;
+	float: left;
+	padding: 5px;
+}
+
+.confirmation-section .right{
+	display: none;
+}
+
+.application-form > ul{
+	font-size: 12px;
+}
+
+.application-form > ul li{
+	margin-left: -3px;
+	padding: 6px 0px;
+	width: 16.62%;
+}
+
+.application-form > ul li > div{
+	width: 105px;
+}
+
+.application-form > ul li > div span{
+	padding: 2px 6px;
+	margin: 0% 0% 0% 2px;
+}
+
+.application-form .left{
+	margin-left: 0px;
+	width: 71%;
+}
+
+.application-form .left ul li{
+	padding-left: 6% !important;
+}
+
+.application-form .left .personal-details-heading{
+	padding: 10px 0px 10px 12px;
+}
+
+.application-form .left .personal-details-title{
+	width: 40%;
+}
+
+.application-form .left .personal-details-contents {
+	width: 60%;
+}
+
+.application-form .left .personal-details-title li:last-child{
+	height: 51px;
+	font-size: 13px;
+}
+
+.application-form .left .personal-details-contents li .info-button{
+	margin-right: 9%;
+}
+
+.personal-details-contents li select, .personal-details-contents li input{
+	width: 140px;
+}
+
+.personal-details-contents li > div{
+	float: right;
+    margin: -4px 5% 0px 0px;
+	width: 90px;
+}
+
+.application-form .right{
+	float: right;
+	margin-right: 5px;
+}
+
+.application-form .right span{
+	padding: 10px;
+}
+
+.application-form .right .contact-box h1{
+	font-size: 24px;
+	line-height: 20px;
+}
+
+.application-form .right .murabaha-moment-box h2{
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.application-form .right .murabaha-moment-box ul li{
+	padding: 10px 2% 0px 12%;
+	margin-left: 3%;
+	font-size: 14px;
+}
+
+footer span{
+	margin:5%;
+}

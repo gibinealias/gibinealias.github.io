@@ -1,0 +1,339 @@
+body{
+	background-color: #F2F2F3;
+}
+
+header{
+	background-color: #fff;
+}
+
+nav{
+	padding-left: 5px;
+}
+
+nav ul li {
+	padding: 4.5px;
+	font-size: 13px;
+	background-color: #fff;
+}
+
+.message-box{
+	top:10%;
+	width: 85%;
+	height: 70%;
+	left: 5%;
+	padding: 10px;
+}
+
+.message-box .cancel-link{
+	margin: 15px 5px;
+    float: left;
+}
+
+.info-message-arrow{
+	border-width: 12px 0px 10px 20px;
+	border-color: transparent transparent transparent #ddd;
+}
+
+article .overview, article .overview li{
+	padding: 1.5%;
+}
+
+.overview li span, .overview li a, .overview li h4, .overview li h5{
+	font-size: 12px !important;
+}
+
+article .overview li h1{
+	font-size: 24px;
+}
+
+section aside{
+	position: absolute;
+	top: -30px;
+	margin-left: -45%;
+	width: 45%;
+	transition: .3s;
+	z-index: 100;
+	margin-bottom:0px;
+}
+
+section aside .add-remove-filter {
+    padding: 20px 0% 20px 18%;
+}
+
+section > aside > b{
+	position: relative;
+	top: 253px;
+	left: 100%;
+	background: #ccc;
+	cursor: pointer;
+	width: 10px;
+	display: block;
+	padding: 6px 12px;
+	line-height: 17px;
+	border-radius: 0px 20px 20px 0px;
+}
+
+section aside ul li label{
+	padding: 8px 3%;
+}
+
+section >aside > :nth-child(2){
+	margin-top: -113px;
+}
+
+.filter-show{
+	margin-left: 0% !important;
+}
+
+section .message-box .filter-list{
+	columns: 2 !important;
+	-webkit-columns: 2 !important;
+	-moz-columns: 2 !important;
+	padding-bottom: 0px;
+}
+
+section .message-box .filter-count, #confirmationBlock .balance-count{
+	padding: 0px;
+	margin:15px 8% 0px 25%;
+}
+
+section main{
+	margin: 30px auto;
+	width: 100%;
+	float: none;
+}
+
+section main h3{
+	font-size: 16px;
+}
+
+section main ul li{
+	padding: 10px 0px;
+	font-size: 12px;
+}
+
+section main ul > :first-child{
+	width: 17%;
+}
+
+section main ul > :nth-child(2), section main ul > :nth-child(3) {
+	width: 9%;
+}
+
+section main ul > :nth-child(4){
+	width: 10%;
+}
+
+section main ul > :nth-child(5){
+	width: 18%;
+}
+
+section main ul > :nth-child(6){
+	width: 23% !important;
+}
+
+section main ul li img{
+	width: 10px;
+}
+
+section main ol{
+	margin: 0px 10px 10px 10px;
+	padding: 10px 10px 0px 10px;
+	font-size: 12px;
+}
+
+section main ol:last-of-type {
+	padding: 10px;
+}
+
+section main .make-investment-button{
+	margin-left: 0px;
+}
+
+#confirmationBlock{
+	height: 75%;
+}
+
+#confirmationBlock ol, #confirmationBlock ul{
+	margin: 0px 0px 10px 0px;
+}
+
+#confirmationBlock ul li{
+	padding: 0px 0px 10px 10px;
+}
+
+#confirmationBlock > b{
+	margin-left: 10px;
+}
+
+#confirmationBlock .balance-count{
+	margin: 15px 8% 0px 20%;
+}
+
+.confirmation-section .left h2{
+	font-size: 15px;
+}
+
+.confirmation-section .left h4 {
+	font-size: 12px;
+}
+
+.confirmation-section .left ol, .confirmation-section ul{
+	margin: 0px;
+}
+
+.confirmation-section .left ul li{
+	padding: 10px 0px 5px 0px;
+}
+
+.confirmation-section .left ul > :first-child{
+	width: 18%;
+}
+
+.confirmation-section .left ul > :nth-child(2), .confirmation-section .left ul > :nth-child(3) {
+	width: 12%;
+}
+
+.confirmation-section .left ul > :nth-child(4) {
+	width: 20%;
+}
+
+.confirmation-section .left ul > :last-child{
+	width: 25%;
+	padding: 0px 10px 0px 0px !important;
+}
+
+.confirmation-section .left ol li h1{
+	font-size: 20px;
+}
+
+.confirmation-section .left ul li h2{
+	font-size: 18px;
+	margin: 10px 0px 0px 0px
+}
+
+.confirmation-section .left h4{
+	margin-bottom: 0px;
+}
+
+.confirmation-section .left #backLink{
+	margin-left: 0px;
+}
+
+.application-form > h2{
+	font-size: 15px;
+	margin: 0;
+	text-align: center;
+	width: 100%;
+	padding: 10px 0px;
+}
+
+.application-form > ul{
+	margin: 0px;
+}
+
+.application-form > ul li{
+	width: 50%;
+	margin-top: 1px;
+}
+
+.application-form .left{
+	width: 100%;
+	margin-bottom: 15px;
+	margin-top: 10px;
+}
+
+.application-form .left ul li{
+	padding: 15px 0px 0px 2px !important;
+	height: 25px;
+}
+
+.application-form .left .personal-details-heading{
+	padding: 8px 0px 8px 5px;
+}
+
+.application-form .left .personal-details-heading h4{
+	margin-top: 6px;
+}
+
+.application-form .left .personal-details-title{
+	width: 38%;
+}
+
+.application-form .left .personal-details-title li{
+	font-size: 12px;
+}
+
+.application-form .left .personal-details-title li:nth-last-child(2), .application-form .left .personal-details-contents li:nth-last-child(2){
+	height: 50px;
+}
+
+.application-form .left .personal-details-title li:last-child, .application-form .left .personal-details-contents li:last-child{
+	height: 90px;
+}
+
+.application-form .left .personal-details-contents{
+	width: 62%;
+}
+
+.application-form .left .personal-details-contents li .info-button{
+	margin-top: -5px;
+	margin-right: 6%;
+}
+
+.personal-details-contents li .info-button .info-message-box{
+	margin-left: -200px;
+	margin-top: -50px;
+}
+
+.personal-details-contents li .info-button .info-message-arrow{
+	left: 170px;
+}
+
+.personal-details-contents li select{
+	width: 100px;
+}
+
+.application-form > .left > input{
+	float: none;
+	width: 95%;
+	margin-left: 2%;
+	border: solid 2px #B1CB3D;
+}
+
+.application-form .left .credit-check-confirmation{
+	text-align: center;
+}
+
+.personal-details-contents li > div{
+	display: none;
+}
+
+.personal-details-contents li img{
+	margin-right: 4%;
+}
+
+.application-form .right{
+	width: 95%;
+	display: inline-block;
+	float: none;
+	max-width: none;
+	margin-top: 12px;
+}
+
+.application-form .right .contact-box, .application-form .right .murabaha-moment-box{
+	display: none;
+}
+
+.application-form .right .temp-action-button{
+	margin: 0 auto;
+    float: none;
+}
+
+.application-form .right .cancel-link{
+	margin-bottom: 30px;
+}
+
+footer span {
+    margin: 5px;
+}
