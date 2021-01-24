@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="images/icon.png" rel="icon" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" media="screen and (max-width: 900px)" href="css/tablet.css">
+	<link rel="stylesheet" media="screen and (max-width: 640px)" href="css/mobile.css">
+	<style>
+		@font-face { 
+			font-family: Adelle; 
+			src: url('fonts/TypeTogether - AdelleBasic-Regular.otf');
+		 }
+		@font-face { 
+			font-family: AdelleBold; 
+			src: url('fonts/TypeTogether - AdelleBasic-Bold.otf');
+		 }
+		 @font-face { 
+			font-family: Adellesans; 
+			src: url('fonts/TypeTogether - AdelleSans-Regular.otf');
+		 }
+		 @font-face { 
+			font-family: AdellesansBold; 
+			src: url('fonts/TypeTogether - AdelleSans-Bold.otf');
+		 }
+	</style>
+	<script src="js/jquery1.8.3.js" type="text/javascript"></script>
+	<script src="js/script.js" type="text/javascript"></script>
+	<title>Murabaha Club - Borrowers</title>
+</head>
+<body class="no-scroll teaser-interested-page">
+
+<header class="teaser-header">
+	<a href="index.html">
+		<img class="logo" src="images/logo.png" />
+	</a>
+	<ul class="menu-bar">
+		<li><a href="index.html">Our home</a></li>
+		<li><a href="borrowers.html">Borrowers</a></li>
+		<li><a href="investors.html">Investors</a></li>
+		<li><a href="partners.html">Partners</a></li>
+		<li><a href="about-us.html">About us</a></li>
+		<li><a href="#L384" class="blue-active">Interested?</a></li>
+		<li><a href="help.html">Help</a></li>
+	</ul>
+	<div class="teaser-background-image">&nbsp;</div>
+	<h1>How would you like to join us?</h1>
+	<form class="user-type">
+		<div class="wrapper">
+			<label>
+				<input type="radio" name="user_type" value="Borrower" required />
+				<h2>As a Borrower</h2>
+			</label>
+		</div>
+		<div class="wrapper">
+			<label>
+				<input type="radio" name="user_type" value="Investor"/>
+				<h2>As an Investor</h2>
+			</label>
+		</div>
+		<div class="wrapper">
+			<label>
+				<input type="radio" name="user_type" value="Partner"/>
+				<h2>As a Partner</h2>
+			</label>
+		</div>
+		<ul>
+			<li class="investor-field partner-field">
+				<h3></h3>
+				<span>
+					<label>
+						<input type="radio" id="partnerTypeIndividualRadio" name="investor_type" value="individual" checked required />
+						<h3>Individual</h3>
+					</label>
+					<label>
+						<input type="radio" class="" name="investor_type" value="company"required />
+						<h3>Company</h3>
+					</label>
+				</span>
+			</li>
+			<li class="borrower-field company-field">
+				<h3>Company Name</h3>
+				<input type="text" class="switch-company" id="companyNameTextBox" placeholder="Enter Company Name" required />
+				<input id="companyDetailsTextBox" type="text" hidden/>
+				<img src="images/loading.gif" />
+				<ul id="companyNamesList" required></ul>
+			</li>
+			<li class="borrower-field investor-field partner-field">
+				<h3>First Name</h3>
+				<input type="text" id="firstNameTextBox" class="charOnly" placeholder="Enter First Name" required />
+
+			</li>
+			<li class="borrower-field investor-field partner-field">
+				<h3>Last Name</h3>
+				<input type="text" id="lastNameTextBox" class="charOnly" placeholder="Enter Last Name" required />
+			</li>	
+			<li class="borrower-field investor-field partner-field">
+				<h3>Email</h3>
+				<input type="email" placeholder="Enter your Email ID" required />
+			</li>
+			<li class="borrower-field investor-field partner-field">
+				<h3>Password</h3>
+				<input type="password" id="passwordTextBox" placeholder="Enter a Password" required />
+			</li>
+			<li class="borrower-field investor-field partner-field">
+				<h3>Phone No.</h3>
+				<h2>+44</h2>
+				<input type="text" id="phoneNumberTextBox" class="numbersOnly" placeholder="Enter Phone Number" minlength="10" maxlength="10" required />
+			</li>
+			<li class="partner-field">
+				<h3>Type of Partner</h3>
+				<select id="typeOfPartnerDropDown" class="switch-partner" required>
+					<option value="" selected="selected">Select</option>
+					<option value="Business consultant/adviser">Introducer</option>
+					<option value="Small business lawyer"> Vendor Partner</option>
+					<option value="Accountant/CPA">Institutional Partner</option>
+					<option value="Commercial finance broker">Affiliate Programme</option>
+				</select>
+			</li>
+			<li class="partner-field">
+				<h3>Primary Business Activity</h3>
+				<select id="primaryBusinessActivityDropDown" class="switch-partner" required>
+					<option value="" selected="selected">Select</option>
+					<option value="Business consultant/adviser">Business consultant/adviser</option>
+					<option value="Small business lawyer">Small business lawyer</option>
+					<option value="Accountant/CPA">Accountant/CPA</option>
+					<option value="Commercial finance broker">Commercial finance broker</option>
+					<option value="Cash advance broker">Cash advance broker</option>
+					<option value="SBA/Bank Lender">SBA/Bank Lender</option>
+					<option value="Equipment lessor/broker">Equipment lessor/broker</option>
+					<option value="Mortgage/real estate broker">Mortgage/real estate broker</option>
+					<option value="Other">Other</option>
+				</select>
+			</li>
+			<li class="investor-field">
+				<h3>How did you hear about us?</h3>
+				<select id="howDidYouHearDropDown" class="switch-investor" required>
+					<option value="" selected="selected">Select</option>
+					<option value="Friends & Family">Friends & Family</option>
+					<option value="Search Engine">Search Engine</option>
+					<option value="Press">Press</option>
+					<option value="Direct Mail">Direct Mail</option>
+					<option value="Radio">Radio</option>
+					<option value="TV">TV</option>
+					<option value="Speaking Engagement">Speaking Engagement</option>
+					<option value="Online Message Board">Online Message Board</option>
+					<option value="Other">Other</option>
+				</select>
+			</li>
+			<li class="investor-field individual-field">
+				<label>
+					<input id="primaryBusinessActivityDropDown" class="switch-investor switch-individual" type="checkbox" />
+					<h3>Annual Income</h3>
+					<h4>Joint total net/gross earnings more than &pound;200k annually (or &pound;300k combined with my spouse) for the past 2 years and expect the same this year.</h4>
+				</label>
+			</li>
+			<li class="investor-field individual-field">
+				<label>
+					<input id="netWorthCheckBox" class="switch-investor switch-individual" type="checkbox" />
+					<h3>Net Worth</h3>
+					<h4>I currently have an individual (or joint with my spouse) net worth over &pound;1 million excluding my primary residence.</h4>
+				</label>
+			</li>
+			<li class="investor-field individual-field">
+				<label>
+					<input id="businessCheckBox" class="switch-investor switch-individual" type="checkbox" />
+					<h3>Business</h3>
+					<h4>I am a representative of a bank, insurance company, registered investment company, business development company, or small business investment company interested in investment opportunities with Murabaha Club</h4>
+				</label>
+			</li>
+			<li class="investor-field individual-field">
+				<h3>Employer</h3>
+				<input id="currentEmployerTextBox" type="text" class="switch-investor switch-individual" placeholder="Enter Current Employer" required />
+			</li>
+			<li class="investor-field">
+				<h3>Designation</h3>
+				<input id="currentDesignationTextBox" type="text" class="switch-investor" placeholder="Enter Current Designation" required />
+			</li>
+			<li class="investor-field international-investor">
+				<h3>Are you an International Investor?</h3>
+				<span>
+					<label>
+						<input type="radio" class="switch-investor" name="international_investor" required />
+						<h3>Yes</h3>
+					</label>
+					<label>
+						<input type="radio" class="switch-investor" name="international_investor" required />
+						<h3>No</h3>
+					</label>
+				</span>
+			</li>
+			<li class="investor-field">
+				<label>
+					<input id="agreeKnowledgeAndExperienceCheckBox" type="checkbox" class="switch-investor" required/>
+					<h3>I Agree</h3>
+					<h4>By checking this box, you represent that you have such knowledge and experience in financial and business matters that you are capable of evaluating the merits and risks of investments with MurabahaClub, and you are able to bear the economic risk of investments including the risk of complete loss.</h4>
+				</label>
+			</li>
+			<li class="investor-field">
+				<label>
+					<input id="agreeTermsAndConditionsCheckBox" type="checkbox" class="switch-investor" required/>
+					<h3>I Agree</h3>
+					<h4>
+						By checking this box you:<br/>
+						(a) understand that Murabaha Club will rely on the foregoing representations to, among other things, maintain compliance with securities laws,<br/>
+						(b) certify that your answers to the foregoing questions are correctly stated to the best of your knowledge, information and belief, and,<br/>
+						(c) you further agree that Murabaha Club may require (in order for you to remain a member of Murabaha Club or participate in any investment) that you (or your accountant or attorney) furnish any additional information to Murabaha Club that it deems reasonably necessary in order to verify your answers to the foregoing questions.
+					</h4>
+				</label>
+			</li>
+		</ul>
+		<input id="userRegistrationSubmitButton" type="submit" value="Create My Account" />
+	</form>
+</header>
+
+<footer class="teaser-footer">
+	<div class="top">
+		<span>Have a question?</span>
+		<span><a href="help.html">Let us know</a></span>
+		<span>24/7 365 Days</span>
+	</div>
+	<ul class="bottom">
+		<li><a href="terms-and-conditions.html#privacyPolicy">Privacy policy</a></li>
+		<li><a href="terms-and-conditions.html#cookiePolicy">Cookie policy</a></li>
+		<li><a href="terms-and-conditions.html#securityPolicy">Security policy</a></li>
+	</ul>
+</footer>
+
+</body>
+</html>
