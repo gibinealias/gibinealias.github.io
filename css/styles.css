@@ -138,6 +138,13 @@ footer{
   background-color: #333;
 }
 
+.bullet{
+  display: inline-block;
+  font-size: 32px;
+  line-height: 0;
+  vertical-align: middle;
+}
+
 /* Page styles */
 .logo{
   margin: 20px 0 0 20px;
@@ -349,6 +356,24 @@ footer{
   margin-right: 12px;
 }
 
+.contact-details{
+  margin: 20px 5%;
+}
+
+.contact-title{
+  font-size: 25px;
+}
+
+.contact-section-icon{
+  width: 35px;
+  margin-right: 10px;
+}
+
+.map-frame{
+  width: 100%;
+  min-height: 500px;
+}
+
 .footer-wrapper{
   align-items: flex-end;
   padding-bottom: 10px;
@@ -420,6 +445,10 @@ footer{
   .whatsapp-icon img{
     width: 40px;
     margin-top: 5px;
+  }
+
+  .contact-details{
+    width: 100%;
   }
 
   .footer-address-block{
@@ -552,6 +581,10 @@ footer{
     width: 40%;
     text-align: right;
     align-self: flex-end;
+  }
+
+  .contact-section{
+    justify-content: center;
   }
 
   .footer-wrapper{
